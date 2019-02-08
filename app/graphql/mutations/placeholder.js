@@ -16,6 +16,23 @@
 //     }
 //   }
 
+// mutation {
+//     createUser(
+//       username: "STRING",
+//       authProvider: {
+//         email: {
+//           email: "STRING",
+//           password: "STRING"
+//         }
+//       }
+//     )
+//     {
+//       id
+//       email
+//       username
+//     }
+//   }
+
 //QUERIES
 // {
 //     articles {
