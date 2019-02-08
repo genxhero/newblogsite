@@ -8,7 +8,6 @@ module Types
     field :article, ArticleType, null: false do
       argument :id, Int, required: true
     end
-
     def article(argument)
       Article.find(argument[:id])
     end
