@@ -5,5 +5,6 @@ class User < ApplicationRecord
 
     has_many :articles,
     primary_key: :id,
-    foreign_key: :
+    foreign_key: :user_id,
+    class_name: "Article"
 end

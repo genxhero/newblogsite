@@ -5,6 +5,7 @@ module Mutations
     argument :body, String, required: true
     
     type Types::ArticleType
+    
 
     def resolve(title: nil, body: nil)
         Article.create!(
