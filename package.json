@@ -1,5 +1,8 @@
 {
   "name": "blogsite",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "create-react-app": "^3.0.1",
+    "npm": "^6.9.0"
+  }
 }
