@@ -5,6 +5,7 @@ ruby '2.6.0'
 
 gem 'graphql'
 gem 'bcrypt', '~> 3.1.7'
+gem 'rack-cors', '~> 1.0.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
 gem 'pry-rails'

@@ -5,7 +5,7 @@
 import gql from 'graphql-tag';
 
  export const index = gql`
- query {
+  query {
     articles{
       title
       author {
@@ -16,7 +16,7 @@ import gql from 'graphql-tag';
 `;
 
 export const show = gql`
-query {
+ {
     article(id: $id) {
       id
       title
